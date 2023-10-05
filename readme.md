@@ -14,21 +14,12 @@ Need to have namespace in the Container Registry to store the images.
 
 <img src="images/001-container-registry.png">
 
-<img src="images/aaa.png">
-<img src="images/aaa.png">
-<img src="images/aaa.png">
-<img src="images/aaa.png">
-<img src="images/aaa.png">
-<img src="images/aaa.png">
-<img src="images/aaa.png">
-<img src="images/aaa.png">
-
 ## 2. Create API Key
 
 To push/pull the images in Container Registry, access rights are required. Need to create API key in IAM.
 
 1. Open the API Keys screen from `Manage > IAM > API Keys `
-2. Create APIKey
+2. Create an API Key
 
 <img src="images/010-api-key.png">
 
@@ -116,8 +107,8 @@ Create an application in the Project.
 9. Enter the following
 
 - Registry Server : us.icr.io
-- Registry access secret : Give the registry secrete we created in the previous step
-- Namespace : Give the namespace already created in the container registry
+- Registry access secret : Give the registry secrete that has already been created in the previous step.
+- Namespace : Give the namespace that has already been created in the container registry.
 
 10. Click on `Done`
 
