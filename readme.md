@@ -73,7 +73,7 @@ Registry access is created.
 <img src="images/030-registry-access-3.png">
 
 
-## 4. Create Application
+## 5. Create Application
 
 Create an application in the Project.
 
@@ -129,7 +129,7 @@ Container registry contains the images
 <img src="images/002-container-registry-2.png">
 
 
-## 5. Accessing the application
+## 6. Accessing the application
 
 1. Click on `Open URL` from the application
 
