@@ -91,7 +91,7 @@ Create an application in the Project.
 
 - Application Name : Give any name here (test-flask2)
 - Choose  `Source code ` option
-- Source Code URL - Give the github url of your source code
+- Source Code URL - Give the github url of your source code. You can give this url https://github.com/GandhiCloudLab/ibm-code-engine-deploy-app as well. It has hello-world python program.
 
 4. Click on `Specify build details`
 
