@@ -1,29 +1,11 @@
-# Deploy Application in IBM Cloud Code Engine
+# Deploying Application in IBM Cloud Code Engine
 
 This article contains the step by step instruction about deploying an application in IBM Cloud Code Engine.
 
 - The Application source code is available in Public GitHub repository
 - Container image of the application is going to build by the Code Engine and pushed to the IBM Cloud Container Registry
 
-## 1. Create namespace in Container Registry
-
-Need to have namespace in the Container Registry to store the images.
-
-1. Choose the required `Location`
-2. Create an `namespace` in the IBM Cloud Container Registry, if it doesn't exists.
-
-<img src="images/001-container-registry.png">
-
-## 2. Create API Key
-
-To push/pull the images in Container Registry, access rights are required. Need to create API key in IAM.
-
-1. Open the API Keys screen from `Manage > IAM > API Keys `
-2. Create an API Key
-
-<img src="images/010-api-key.png">
-
-## 3. Create Project
+## 1. Create Project
 
 Need to create a project to deploy any application on it. 
 
@@ -46,7 +28,29 @@ Project is created.
 <img src="images/020-project-3.png">
 
 
-## 4. Create Registry Access
+## 2. Container Registry Acccess
+
+Prepare IBM Cloud Container Registry.
+
+### 2.1. Create namespace in Container Registry
+
+Need to have namespace in the Container Registry to store the images.
+
+1. Choose the required `Location`
+2. Create an `namespace` in the IBM Cloud Container Registry, if it doesn't exists.
+
+<img src="images/001-container-registry.png">
+
+### 2.2. Create IBM Cloud API Key
+
+To push/pull the images in Container Registry, access rights are required. Need to create API key in IAM.
+
+1. Open the API Keys screen from `Manage > IAM > API Keys `
+2. Create an API Key
+
+<img src="images/010-api-key.png">
+
+### 2.3. Create Registry Access in Code Engine
 
 Need to create registry access to push/pull container image. 
 
@@ -73,7 +77,7 @@ Registry access is created.
 <img src="images/030-registry-access-3.png">
 
 
-## 5. Create Application
+## 3. Create Application
 
 Create an application in the Project.
 
@@ -129,7 +133,7 @@ Container registry contains the images
 <img src="images/002-container-registry-2.png">
 
 
-## 6. Accessing the application
+## 4. Accessing the application
 
 1. Click on `Open URL` from the application
 
