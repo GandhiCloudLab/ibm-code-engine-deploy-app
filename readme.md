@@ -92,11 +92,12 @@ Create an application in the Project.
 - Application Name : Give any name here (test-flask2)
 - Choose  `Source code ` option
 - Source Code URL - Give the github url of your source code. You can give this url https://github.com/GandhiCloudLab/ibm-code-engine-deploy-app as well. It has hello-world python program.
+- If you want to use the Private Code Repository. You can refere this section [Accessing Private Code Repository](./readme-acessing-code-from-private-repo.md)
+
 
 4. Click on `Specify build details`
 
 <img src="images/040-app-2.png">
-
 
 5. Enter `Branch Name`
 6. Click on `Next`
