@@ -4,12 +4,14 @@ This article details the process of deploying an application in the IBM Cloud Co
 
 ## 1. Create SSH Key
 
+Let us create SSH Key both Private and Public keys. 
+
 1. Run the below command in the terminal with your email id.
 
   ```
     ssh-keygen -t ed25519 -C "jxxxxxx@xxxx.com"
   ```
-2. It will ask for the file to save the key like this. You need to enter some file ex: `test`
+2. It will ask for the file to save the key like this. You need to enter some file name ex: `test`
 
 <img src="images/060-ssh-1.png">
 
@@ -22,14 +24,14 @@ The output should be like this.
 <img src="images/060-ssh-3.png">
 
 
-4. Run the below command to get the public key
+4. Run the below command to get the public key (Optional)
   ```
     cat test.pub
   ```
 <img src="images/060-ssh-4.png">
 
 
-5. Run the below command to get the private key
+5. Run the below command to get the private key (Optional)
   ```
     cat test
   ```
@@ -42,7 +44,7 @@ Let us deploy public key in github account.
 
 1. Goto your github repo.
 
-2. Goto to Deploy Keys page by navigating to `Settings > Deploy keys`
+2. Goto to `Deploy Keys` page by navigating to `Settings > Deploy keys`
 
 3. Click on `Add deploy key` button
 
@@ -61,7 +63,7 @@ The public key is deployed in github account successfully.
 
 <img src="images/061-ssh-github-3.png">
 
-## 2. Private Code Repo Access
+## 3. Private Code Repo Access
 
 Let use create a Private GitHub repo access in Code Engine.
 
@@ -83,7 +85,7 @@ Code Repo access got created.
 
 <img src="images/062-code-repo3.png">
 
-## 3. Create application using source code from Private Code Repo
+## 4. Create application using source code from Private Code Repo
 
 Let use create an Application using the src code available in the private code repo (github.ibm.com) 
 
@@ -124,7 +126,7 @@ Let use create an Application using the src code available in the private code r
 
 12. Click on `Done` button.
 
-<img src="images/063-app5.png">
+<img src="images/063-app6.png">
 
 
 ### Reference
